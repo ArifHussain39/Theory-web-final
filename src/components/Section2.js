@@ -63,6 +63,8 @@ export default function Section2() {
                         >
                             Start Building
                         </button>
+                        <br />
+                        <br />
                     </div>
                     <div className="col-lg-8 d-flex justify-content-center ">
                         <img style={{ boxShadow: '10px 10px 20px rgba(0, 0, 0, 0.5)' }} src={Section2Img} alt="" width={"500px"} />
@@ -113,6 +115,7 @@ export default function Section2() {
                     </div>
                 </div>
             </div>
+            <br /><br />
         </>
     )
 }

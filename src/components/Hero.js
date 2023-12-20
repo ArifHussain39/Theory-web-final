@@ -19,10 +19,14 @@ export default function Hero() {
                     }} > Web3Makr Redefining </span><br />How You Create
                 </h1>
                 <br />
-                <p style={{ color: 'gray' }} >
+                <p style={{ color: 'gray' , fontSize:'25px'}} >
                     Unlock the blockchain potential to create Web3 Applications
                 </p>
-                <img src={icon} alt="" width={"50px"} />
+                <img
+                    src={icon} alt="" width={"50px"}
+                    style={{
+
+                    }} />
                 <br />
                 <br />
 

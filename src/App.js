@@ -19,8 +19,18 @@ function App() {
       </div>
 
       <Section2 />
+     
       <div style={{ backgroundColor: 'black' }} >
-        <Future />
+      <Future />
+      <br />
+      <br />
+      
+      </div>
+      <div style={{ backgroundColor: 'gray' }}>
+<br />
+      </div>
+      <div style={{ backgroundColor: 'black' }} >
+       
         <Footer />
       </div>
 

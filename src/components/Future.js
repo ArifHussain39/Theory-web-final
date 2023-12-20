@@ -14,10 +14,14 @@ const YourComponent = () => {
             <div className="row">
                 <div className='text-center text-white'>
                     <br /><br />
-                    <h1  >
+                    <h1 
+                    style={{fontSize:'60px'}}
+                     >
                         The Future of Web3 NoCode
                     </h1>
-                    <p>
+                    <p
+                    style={{fontSize:'25px'}}
+                    >
                         Web3Makr allows you to incorporate top ranked blockchain platforms into your work through the drag and drop feature.
                     </p>
                 </div>
