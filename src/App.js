@@ -6,6 +6,7 @@ import { MyNavbar } from './components/Navbar';
 import Hero from './components/Hero';
 import Section2 from './components/Section2';
 import Footer from './components/Footer';
+import Future from './components/Future';
 
 
 function App() {
@@ -16,17 +17,15 @@ function App() {
       <div style={{ backgroundColor: 'black' }}>
         <Hero />
       </div>
+
       <Section2 />
-      <div style={{backgroundColor: 'black' }} >
+      <div style={{ backgroundColor: 'black' }} >
+        <Future />
         <Footer />
       </div>
 
 
-      {/* <Contact /> */}
-      {/* <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes> */}
+
     </div>
   );
 }
